@@ -26,7 +26,10 @@ namespace DevIO.UI.Site
 
             app.UseMvc(routes =>
             {
+                routes.MapRoute("areas", "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
                 routes.MapRoute("default","{controller=Home}/{action=Index}/{id?}");
+
             });
         }
     }
