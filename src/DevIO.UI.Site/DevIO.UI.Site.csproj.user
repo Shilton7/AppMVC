@@ -3,5 +3,9 @@
   <PropertyGroup>
     <View_SelectedScaffolderID>RazorPageScaffolder</View_SelectedScaffolderID>
     <View_SelectedScaffolderCategoryPath>root/Common/RazorPage</View_SelectedScaffolderCategoryPath>
+    <ActiveDebugProfile>IIS Express - Prod</ActiveDebugProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
 </Project>
